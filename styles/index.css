@@ -1,2 +1,3 @@
 @import url(./global.css);
 @import url(nav.css); /* pode usar ./ ou deixar sem, isso significa nesta pasta */
+@import url(header.css);

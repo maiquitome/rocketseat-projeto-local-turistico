@@ -1,0 +1,44 @@
+header {
+  padding-block: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  font: var(--text-md);
+}
+
+#profile {
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+
+/* `> div` significa primeiro nível de filho div */
+#profile > div {
+  max-width: 370px;
+}
+
+#profile h1 {
+  font: var(--text-lg);
+  color: var(--text-color-primary);
+  margin-bottom: 8px;
+}
+
+#info {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 280px;
+  padding-top: 20px;
+}
+
+#info li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+#info li span {
+  line-height: 0;
+}
