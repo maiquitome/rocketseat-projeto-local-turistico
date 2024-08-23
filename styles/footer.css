@@ -1,5 +1,7 @@
 footer {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   padding-block: 24px;
   gap: 24px;
   font: var(--text-md);
@@ -7,4 +9,12 @@ footer {
 
 footer span:nth-child(1) {
   margin-right: auto;
+}
+
+@media (max-width: 600px) {
+  footer span:nth-child(1) {
+    margin-inline: auto;
+    text-align: center;
+    width: 100%;
+  }
 }

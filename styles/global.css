@@ -18,6 +18,8 @@
   --text: 16px/1.5 var(--font-family); /* 1.5 é igual a 150% */
   --text-md: 14px/170% var(--font-family);
   --text-sm: 12px/170% var(--font-family);
+
+  --tablet-width: 768px;
 }
 
 body {

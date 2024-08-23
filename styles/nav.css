@@ -28,3 +28,9 @@ nav ul li:first-child:hover {
   filter: invert(46%) sepia(57%) saturate(960%) hue-rotate(324deg)
     brightness(96%) contrast(94%);
 }
+
+@media (max-width: 600px) {
+  .hide-on-mobile {
+    display: none;
+  }
+}
